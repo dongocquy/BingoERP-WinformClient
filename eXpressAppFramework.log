@@ -1509,3 +1509,743 @@ Loaded assemblies
 =========================
 23.02.26 14:25:35.454	Application running
 ====================
+07.03.26 11:42:59.625	================================================================================
+07.03.26 11:42:59.628	Trace Log for BingoERP_2026.Win is started
+07.03.26 11:42:59.628	================================================================================
+07.03.26 11:42:59.628	System Environment
+	OS Version: Microsoft Windows NT 10.0.26200.0
+	CLR Version: 8.0.24
+	eXpressApp Version: 24.1.3.0
+	eXpressApp File Version: 24.1.3.0
+
+Application config
+	MiddleTierBaseAddress=https://middle-tier.bingoexv.com/
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+	eXpressAppFrameworkTraceLevel=3
+
+07.03.26 11:42:59.667	Initialize application
+=======================
+07.03.26 11:42:59.708	The ValueManagerType is initialized by the default value: SimpleValueManager.
+07.03.26 11:42:59.713	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at DevExpress.Persistent.Base.ValueManager.<>c__4`1.<GetValueManager>b__4_1(String _key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   at DevExpress.ExpressApp.ReportsV2.Win.ReportsWindowsFormsModuleV2.Setup(XafApplication application)
+   at DevExpress.ExpressApp.XafApplication.ModuleList_ModuleAdded(Object sender, ModuleRegisteredEventArgs e)
+   at DevExpress.ExpressApp.ModuleList.SetupModule(ModuleBase module)
+   at DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   at System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   at DevExpress.ExpressApp.Utils.BindingListBase`1.Add(T item)
+   at DevExpress.ExpressApp.Win.ApplicationBuilder.WinModuleBuilder.<>c__DisplayClass4_0`1.<Add>b__0(XafApplication application)
+   at DevExpress.ExpressApp.Win.ApplicationBuilder.WinApplicationBuilder.Build()
+   at BingoERP_2026.Win.ApplicationBuilder.BuildApplication() in C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\Startup.cs:line 84
+   at BingoERP_2026.Win.Program.Main(String[] args) in C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\Program.cs:line 38
+
+07.03.26 11:43:00.008	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+07.03.26 11:43:00.008	--------------------------------------------------------------------------------
+							
+
+07.03.26 11:43:00.013	--------------------------------------------------------------------------------
+Loaded assemblies
+	Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.24\Accessibility.dll
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=
+	BingoERP_2026.Module, Version=1.0.9550.25628, Culture=neutral, PublicKeyToken=null, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\BingoERP_2026.Module.dll
+	BingoERP_2026.Win, Version=1.0.9550.25630, Culture=neutral, PublicKeyToken=null, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\BingoERP_2026.Win.dll
+	DevExpress.BonusSkins.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.BonusSkins.v24.1.dll
+	DevExpress.Data.Desktop.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.Data.Desktop.v24.1.dll
+	DevExpress.Data.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.Data.v24.1.dll
+	DevExpress.Drawing.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.Drawing.v24.1.dll
+	DevExpress.ExpressApp.AuditTrail.Xpo.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.AuditTrail.Xpo.v24.1.dll
+	DevExpress.ExpressApp.Chart.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Chart.v24.1.dll
+	DevExpress.ExpressApp.Chart.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Chart.Win.v24.1.dll
+	DevExpress.ExpressApp.CloneObject.Xpo.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.CloneObject.Xpo.v24.1.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.ConditionalAppearance.v24.1.dll
+	DevExpress.ExpressApp.Dashboards.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Dashboards.v24.1.dll
+	DevExpress.ExpressApp.Dashboards.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Dashboards.Win.v24.1.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.FileAttachment.Win.v24.1.dll
+	DevExpress.ExpressApp.Kpi.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Kpi.v24.1.dll
+	DevExpress.ExpressApp.Notifications.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Notifications.v24.1.dll
+	DevExpress.ExpressApp.Notifications.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Notifications.Win.v24.1.dll
+	DevExpress.ExpressApp.Objects.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Objects.v24.1.dll
+	DevExpress.ExpressApp.Office.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Office.v24.1.dll
+	DevExpress.ExpressApp.Office.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Office.Win.v24.1.dll
+	DevExpress.ExpressApp.PivotChart.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.PivotChart.v24.1.dll
+	DevExpress.ExpressApp.PivotChart.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.PivotChart.Win.v24.1.dll
+	DevExpress.ExpressApp.PivotGrid.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.PivotGrid.v24.1.dll
+	DevExpress.ExpressApp.PivotGrid.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.PivotGrid.Win.v24.1.dll
+	DevExpress.ExpressApp.ReportsV2.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.ReportsV2.v24.1.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.ReportsV2.Win.v24.1.dll
+	DevExpress.ExpressApp.Scheduler.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Scheduler.v24.1.dll
+	DevExpress.ExpressApp.Scheduler.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Scheduler.Win.v24.1.dll
+	DevExpress.ExpressApp.ScriptRecorder.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.ScriptRecorder.v24.1.dll
+	DevExpress.ExpressApp.Security.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Security.v24.1.dll
+	DevExpress.ExpressApp.Security.Xpo.Extensions.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Security.Xpo.Extensions.Win.v24.1.dll
+	DevExpress.ExpressApp.Security.Xpo.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Security.Xpo.v24.1.dll
+	DevExpress.ExpressApp.StateMachine.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.StateMachine.v24.1.dll
+	DevExpress.ExpressApp.TreeListEditors.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.TreeListEditors.v24.1.dll
+	DevExpress.ExpressApp.TreeListEditors.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.TreeListEditors.Win.v24.1.dll
+	DevExpress.ExpressApp.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.v24.1.dll
+	DevExpress.ExpressApp.Validation.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Validation.v24.1.dll
+	DevExpress.ExpressApp.Validation.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Validation.Win.v24.1.dll
+	DevExpress.ExpressApp.ViewVariantsModule.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.ViewVariantsModule.v24.1.dll
+	DevExpress.ExpressApp.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Win.v24.1.dll
+	DevExpress.ExpressApp.Xpo.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Xpo.v24.1.dll
+	DevExpress.Persistent.Base.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.Persistent.Base.v24.1.dll
+	DevExpress.Persistent.BaseImpl.Xpo.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.Persistent.BaseImpl.Xpo.v24.1.dll
+	DevExpress.PivotGrid.v24.1.Core, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.PivotGrid.v24.1.Core.dll
+	DevExpress.Printing.v24.1.Core, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.Printing.v24.1.Core.dll
+	DevExpress.RichEdit.v24.1.Core, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.RichEdit.v24.1.Core.dll
+	DevExpress.Spreadsheet.v24.1.Core, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.Spreadsheet.v24.1.Core.dll
+	DevExpress.Utils.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.Utils.v24.1.dll
+	DevExpress.Xpo.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.Xpo.v24.1.dll
+	DevExpress.XtraBars.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.XtraBars.v24.1.dll
+	DevExpress.XtraEditors.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.XtraEditors.v24.1.dll
+	DevExpress.XtraReports.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.XtraReports.v24.1.dll
+	DevExpress.XtraReports.v24.1.Extensions, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.XtraReports.v24.1.Extensions.dll
+	DevExpress.XtraRichEdit.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.XtraRichEdit.v24.1.dll
+	DevExpress.XtraScheduler.v24.1.Core, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.XtraScheduler.v24.1.Core.dll
+	DevExpress.XtraSpreadsheet.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.XtraSpreadsheet.v24.1.dll
+	DevExpress.XtraTreeList.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.XtraTreeList.v24.1.dll
+	Microsoft.Extensions.Configuration, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.24\Microsoft.Extensions.Configuration.dll
+	Microsoft.Extensions.Configuration.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.24\Microsoft.Extensions.Configuration.Abstractions.dll
+	Microsoft.Extensions.DependencyInjection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.24\Microsoft.Extensions.DependencyInjection.dll
+	Microsoft.Extensions.DependencyInjection.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.24\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+	Microsoft.Extensions.Options, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.24\Microsoft.Extensions.Options.dll
+	Microsoft.Extensions.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.24\Microsoft.Extensions.Primitives.dll
+	Microsoft.Win32.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\Microsoft.Win32.Primitives.dll
+	Microsoft.Win32.Registry, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\Microsoft.Win32.Registry.dll
+	Microsoft.Win32.SystemEvents, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.24\Microsoft.Win32.SystemEvents.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.dll
+	System.Collections, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Collections.dll
+	System.Collections.Concurrent, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Collections.Concurrent.dll
+	System.Collections.Immutable, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Collections.Immutable.dll
+	System.Collections.NonGeneric, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Collections.NonGeneric.dll
+	System.Collections.Specialized, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Collections.Specialized.dll
+	System.ComponentModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.ComponentModel.dll
+	System.ComponentModel.EventBasedAsync, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.ComponentModel.EventBasedAsync.dll
+	System.ComponentModel.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.ComponentModel.Primitives.dll
+	System.ComponentModel.TypeConverter, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.ComponentModel.TypeConverter.dll
+	System.Configuration.ConfigurationManager, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.24\System.Configuration.ConfigurationManager.dll
+	System.Data.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Data.Common.dll
+	System.Diagnostics.DiagnosticSource, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Diagnostics.DiagnosticSource.dll
+	System.Diagnostics.FileVersionInfo, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Diagnostics.FileVersionInfo.dll
+	System.Diagnostics.Process, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Diagnostics.Process.dll
+	System.Diagnostics.StackTrace, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Diagnostics.StackTrace.dll
+	System.Diagnostics.TextWriterTraceListener, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Diagnostics.TextWriterTraceListener.dll
+	System.Diagnostics.TraceSource, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Diagnostics.TraceSource.dll
+	System.Diagnostics.Tracing, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Diagnostics.Tracing.dll
+	System.Drawing, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.24\System.Drawing.dll
+	System.Drawing.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.24\System.Drawing.Common.dll
+	System.Drawing.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Drawing.Primitives.dll
+	System.IO.Compression, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.IO.Compression.dll
+	System.IO.MemoryMappedFiles, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.IO.MemoryMappedFiles.dll
+	System.Linq, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Linq.dll
+	System.Linq.Expressions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Linq.Expressions.dll
+	System.Memory, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Memory.dll
+	System.Net.Http, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Net.Http.dll
+	System.Net.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Net.Primitives.dll
+	System.Net.Security, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Net.Security.dll
+	System.Net.WebClient, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Net.WebClient.dll
+	System.Net.WebSockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Net.WebSockets.dll
+	System.Net.WebSockets.Client, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Net.WebSockets.Client.dll
+	System.Numerics.Vectors, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Numerics.Vectors.dll
+	System.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.ObjectModel.dll
+	System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Private.CoreLib.dll
+	System.Private.Uri, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Private.Uri.dll
+	System.Private.Xml, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Private.Xml.dll
+	System.Reflection.Emit, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Reflection.Emit.dll
+	System.Reflection.Emit.ILGeneration, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Reflection.Emit.ILGeneration.dll
+	System.Reflection.Emit.Lightweight, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Reflection.Emit.Lightweight.dll
+	System.Reflection.Metadata, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Reflection.Metadata.dll
+	System.Reflection.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Reflection.Primitives.dll
+	System.Resources.Extensions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.24\System.Resources.Extensions.dll
+	System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Runtime.dll
+	System.Runtime.InteropServices, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Runtime.InteropServices.dll
+	System.Runtime.InteropServices.RuntimeInformation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Runtime.InteropServices.RuntimeInformation.dll
+	System.Runtime.Serialization.Formatters, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Runtime.Serialization.Formatters.dll
+	System.Security.Cryptography, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Security.Cryptography.dll
+	System.Text.Encoding.Extensions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Text.Encoding.Extensions.dll
+	System.Text.RegularExpressions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Text.RegularExpressions.dll
+	System.Threading, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Threading.dll
+	System.Threading.Thread, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Threading.Thread.dll
+	System.Threading.ThreadPool, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Threading.ThreadPool.dll
+	System.Windows.Forms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.24\System.Windows.Forms.dll
+	System.Windows.Forms.Design, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.24\System.Windows.Forms.Design.dll
+	System.Windows.Forms.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.24\System.Windows.Forms.Primitives.dll
+	System.Xml.ReaderWriter, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Xml.ReaderWriter.dll
+	System.Xml.XmlSerializer, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Xml.XmlSerializer.dll
+07.03.26 11:43:00.136	SetupModules
+07.03.26 11:43:00.537	Customize TypesInfo
+07.03.26 11:43:02.662		preferredLanguageName: (User language)
+								userLanguageName: en-US
+
+07.03.26 11:43:02.662		preferredLanguageName: (User language)
+								userFormattingCultureName: en-US
+								selectedFormattingCultureName: 
+
+07.03.26 11:43:02.814	Logon With Parameters
+07.03.26 11:43:02.815		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: a1752b9a-6293-4b9f-b340-45204abc5c36
+								Category: Unspecified
+
+07.03.26 11:43:02.893	Generate default Model for Action containers
+07.03.26 11:43:07.501	'Password' property editor value changed
+07.03.26 11:43:07.504	--------------------------------------------------------------------------------
+							Execute action
+
+07.03.26 11:43:07.504		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Log In
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+
+07.03.26 11:43:07.505	--------------------------------------------------------------------------------
+							Execute action
+
+07.03.26 11:43:07.505		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: a1752b9a-6293-4b9f-b340-45204abc5c36
+								Category: Unspecified
+
+07.03.26 11:43:07.528	--------------------------------------------------------------------------------
+							Start logon process
+
+07.03.26 11:43:07.529	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+07.03.26 11:43:07.529		ConnectionString: 
+07.03.26 11:43:07.529		ConnectionString: 
+07.03.26 11:43:09.663	Resolve the 'Main.Module, Culture=neutral, PublicKeyToken=null' assembly
+07.03.26 11:43:09.673	Resolve the 'Xpand.ExpressApp.ImportWizard, Culture=neutral, PublicKeyToken=null' assembly
+07.03.26 11:43:09.675	Resolve the 'VietRau.Module, Culture=neutral, PublicKeyToken=null' assembly
+07.03.26 11:43:09.850	--------------------------------------------------------------------------------
+							Logon successful
+
+07.03.26 11:43:10.327	--------------------------------------------------------------------------------
+							Logon completed
+
+07.03.26 11:43:10.536		startUpActions: 1
+07.03.26 11:43:10.562	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+07.03.26 11:43:11.831	--------------------------------------------------------------------------------
+							FilterController.SetFilter, View: ThongKeSanLuong_ListView
+
+07.03.26 11:43:11.831		filterID: Tất cả
+07.03.26 11:43:18.173	Action 'a1752b9a-6293-4b9f-b340-45204abc5c36' done
+07.03.26 11:43:18.174	Window closing: AuthenticationStandardLogonParameters_Win_DetailView
+07.03.26 11:43:18.179	Action 'Logon' done
+07.03.26 11:43:18.179	Window closed: AuthenticationStandardLogonParameters_Win_DetailView
+07.03.26 11:43:18.202	Application startup done
+=========================
+07.03.26 11:43:18.202	Application running
+====================
+07.03.26 11:45:29.742	Window closing: ThongKeSanLuong_ListView
+07.03.26 11:45:29.748	Window closing: LightStyleMainRibbonForm
+07.03.26 11:45:29.769	Window closed: ThongKeSanLuong_ListView
+07.03.26 11:45:29.770	Window closed: LightStyleMainRibbonForm
+07.03.26 11:45:29.858	Save model changes
+===================
+07.03.26 11:45:31.022	Save model changes
+===================
+07.03.26 11:45:31.754	--------------------------------------------------------------------------------
+							Logoff completed
+
+07.03.26 11:45:31.778	Application stopping
+=====================
+07.03.26 11:46:13.825	================================================================================
+07.03.26 11:46:13.828	Trace Log for BingoERP_2026.Win is started
+07.03.26 11:46:13.828	================================================================================
+07.03.26 11:46:13.828	System Environment
+	OS Version: Microsoft Windows NT 10.0.26200.0
+	CLR Version: 8.0.24
+	eXpressApp Version: 24.1.3.0
+	eXpressApp File Version: 24.1.3.0
+
+Application config
+	MiddleTierBaseAddress=https://middle-tier.bingoexv.com/
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+	eXpressAppFrameworkTraceLevel=3
+
+07.03.26 11:46:13.865	Initialize application
+=======================
+07.03.26 11:46:13.902	The ValueManagerType is initialized by the default value: SimpleValueManager.
+07.03.26 11:46:13.907	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at DevExpress.Persistent.Base.ValueManager.<>c__4`1.<GetValueManager>b__4_1(String _key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   at DevExpress.ExpressApp.ReportsV2.Win.ReportsWindowsFormsModuleV2.Setup(XafApplication application)
+   at DevExpress.ExpressApp.XafApplication.ModuleList_ModuleAdded(Object sender, ModuleRegisteredEventArgs e)
+   at DevExpress.ExpressApp.ModuleList.SetupModule(ModuleBase module)
+   at DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   at System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   at DevExpress.ExpressApp.Utils.BindingListBase`1.Add(T item)
+   at DevExpress.ExpressApp.Win.ApplicationBuilder.WinModuleBuilder.<>c__DisplayClass4_0`1.<Add>b__0(XafApplication application)
+   at DevExpress.ExpressApp.Win.ApplicationBuilder.WinApplicationBuilder.Build()
+   at BingoERP_2026.Win.ApplicationBuilder.BuildApplication() in C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\Startup.cs:line 84
+   at BingoERP_2026.Win.Program.Main(String[] args) in C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\Program.cs:line 48
+
+07.03.26 11:46:14.198	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+07.03.26 11:46:14.198	--------------------------------------------------------------------------------
+							
+
+07.03.26 11:46:14.202	--------------------------------------------------------------------------------
+Loaded assemblies
+	Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.24\Accessibility.dll
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=
+	BingoERP_2026.Module, Version=1.0.9562.21177, Culture=neutral, PublicKeyToken=null, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\BingoERP_2026.Module.dll
+	BingoERP_2026.Win, Version=1.0.9562.21178, Culture=neutral, PublicKeyToken=null, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\BingoERP_2026.Win.dll
+	DevExpress.BonusSkins.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.BonusSkins.v24.1.dll
+	DevExpress.Data.Desktop.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.Data.Desktop.v24.1.dll
+	DevExpress.Data.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.Data.v24.1.dll
+	DevExpress.Drawing.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.Drawing.v24.1.dll
+	DevExpress.ExpressApp.AuditTrail.Xpo.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.AuditTrail.Xpo.v24.1.dll
+	DevExpress.ExpressApp.Chart.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Chart.v24.1.dll
+	DevExpress.ExpressApp.Chart.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Chart.Win.v24.1.dll
+	DevExpress.ExpressApp.CloneObject.Xpo.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.CloneObject.Xpo.v24.1.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.ConditionalAppearance.v24.1.dll
+	DevExpress.ExpressApp.Dashboards.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Dashboards.v24.1.dll
+	DevExpress.ExpressApp.Dashboards.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Dashboards.Win.v24.1.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.FileAttachment.Win.v24.1.dll
+	DevExpress.ExpressApp.Kpi.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Kpi.v24.1.dll
+	DevExpress.ExpressApp.Notifications.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Notifications.v24.1.dll
+	DevExpress.ExpressApp.Notifications.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Notifications.Win.v24.1.dll
+	DevExpress.ExpressApp.Objects.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Objects.v24.1.dll
+	DevExpress.ExpressApp.Office.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Office.v24.1.dll
+	DevExpress.ExpressApp.Office.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Office.Win.v24.1.dll
+	DevExpress.ExpressApp.PivotChart.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.PivotChart.v24.1.dll
+	DevExpress.ExpressApp.PivotChart.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.PivotChart.Win.v24.1.dll
+	DevExpress.ExpressApp.PivotGrid.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.PivotGrid.v24.1.dll
+	DevExpress.ExpressApp.PivotGrid.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.PivotGrid.Win.v24.1.dll
+	DevExpress.ExpressApp.ReportsV2.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.ReportsV2.v24.1.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.ReportsV2.Win.v24.1.dll
+	DevExpress.ExpressApp.Scheduler.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Scheduler.v24.1.dll
+	DevExpress.ExpressApp.Scheduler.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Scheduler.Win.v24.1.dll
+	DevExpress.ExpressApp.ScriptRecorder.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.ScriptRecorder.v24.1.dll
+	DevExpress.ExpressApp.Security.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Security.v24.1.dll
+	DevExpress.ExpressApp.Security.Xpo.Extensions.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Security.Xpo.Extensions.Win.v24.1.dll
+	DevExpress.ExpressApp.Security.Xpo.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Security.Xpo.v24.1.dll
+	DevExpress.ExpressApp.StateMachine.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.StateMachine.v24.1.dll
+	DevExpress.ExpressApp.TreeListEditors.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.TreeListEditors.v24.1.dll
+	DevExpress.ExpressApp.TreeListEditors.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.TreeListEditors.Win.v24.1.dll
+	DevExpress.ExpressApp.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.v24.1.dll
+	DevExpress.ExpressApp.Validation.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Validation.v24.1.dll
+	DevExpress.ExpressApp.Validation.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Validation.Win.v24.1.dll
+	DevExpress.ExpressApp.ViewVariantsModule.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.ViewVariantsModule.v24.1.dll
+	DevExpress.ExpressApp.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Win.v24.1.dll
+	DevExpress.ExpressApp.Xpo.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Xpo.v24.1.dll
+	DevExpress.Persistent.Base.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.Persistent.Base.v24.1.dll
+	DevExpress.Persistent.BaseImpl.Xpo.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.Persistent.BaseImpl.Xpo.v24.1.dll
+	DevExpress.PivotGrid.v24.1.Core, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.PivotGrid.v24.1.Core.dll
+	DevExpress.Printing.v24.1.Core, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.Printing.v24.1.Core.dll
+	DevExpress.RichEdit.v24.1.Core, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.RichEdit.v24.1.Core.dll
+	DevExpress.Spreadsheet.v24.1.Core, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.Spreadsheet.v24.1.Core.dll
+	DevExpress.Utils.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.Utils.v24.1.dll
+	DevExpress.Xpo.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.Xpo.v24.1.dll
+	DevExpress.XtraBars.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.XtraBars.v24.1.dll
+	DevExpress.XtraEditors.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.XtraEditors.v24.1.dll
+	DevExpress.XtraReports.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.XtraReports.v24.1.dll
+	DevExpress.XtraReports.v24.1.Extensions, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.XtraReports.v24.1.Extensions.dll
+	DevExpress.XtraRichEdit.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.XtraRichEdit.v24.1.dll
+	DevExpress.XtraScheduler.v24.1.Core, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.XtraScheduler.v24.1.Core.dll
+	DevExpress.XtraSpreadsheet.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.XtraSpreadsheet.v24.1.dll
+	DevExpress.XtraTreeList.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.XtraTreeList.v24.1.dll
+	Microsoft.Extensions.Configuration, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.24\Microsoft.Extensions.Configuration.dll
+	Microsoft.Extensions.Configuration.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.24\Microsoft.Extensions.Configuration.Abstractions.dll
+	Microsoft.Extensions.DependencyInjection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.24\Microsoft.Extensions.DependencyInjection.dll
+	Microsoft.Extensions.DependencyInjection.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.24\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+	Microsoft.Extensions.Options, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.24\Microsoft.Extensions.Options.dll
+	Microsoft.Extensions.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.24\Microsoft.Extensions.Primitives.dll
+	Microsoft.Win32.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\Microsoft.Win32.Primitives.dll
+	Microsoft.Win32.Registry, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\Microsoft.Win32.Registry.dll
+	Microsoft.Win32.SystemEvents, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.24\Microsoft.Win32.SystemEvents.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.dll
+	System.Collections, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Collections.dll
+	System.Collections.Concurrent, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Collections.Concurrent.dll
+	System.Collections.Immutable, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Collections.Immutable.dll
+	System.Collections.NonGeneric, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Collections.NonGeneric.dll
+	System.Collections.Specialized, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Collections.Specialized.dll
+	System.ComponentModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.ComponentModel.dll
+	System.ComponentModel.EventBasedAsync, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.ComponentModel.EventBasedAsync.dll
+	System.ComponentModel.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.ComponentModel.Primitives.dll
+	System.ComponentModel.TypeConverter, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.ComponentModel.TypeConverter.dll
+	System.Configuration.ConfigurationManager, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.24\System.Configuration.ConfigurationManager.dll
+	System.Data.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Data.Common.dll
+	System.Diagnostics.DiagnosticSource, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Diagnostics.DiagnosticSource.dll
+	System.Diagnostics.FileVersionInfo, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Diagnostics.FileVersionInfo.dll
+	System.Diagnostics.Process, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Diagnostics.Process.dll
+	System.Diagnostics.StackTrace, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Diagnostics.StackTrace.dll
+	System.Diagnostics.TextWriterTraceListener, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Diagnostics.TextWriterTraceListener.dll
+	System.Diagnostics.TraceSource, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Diagnostics.TraceSource.dll
+	System.Diagnostics.Tracing, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Diagnostics.Tracing.dll
+	System.Drawing, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.24\System.Drawing.dll
+	System.Drawing.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.24\System.Drawing.Common.dll
+	System.Drawing.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Drawing.Primitives.dll
+	System.IO.Compression, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.IO.Compression.dll
+	System.IO.MemoryMappedFiles, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.IO.MemoryMappedFiles.dll
+	System.Linq, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Linq.dll
+	System.Linq.Expressions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Linq.Expressions.dll
+	System.Memory, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Memory.dll
+	System.Net.Http, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Net.Http.dll
+	System.Net.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Net.Primitives.dll
+	System.Net.Security, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Net.Security.dll
+	System.Net.WebClient, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Net.WebClient.dll
+	System.Net.WebSockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Net.WebSockets.dll
+	System.Net.WebSockets.Client, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Net.WebSockets.Client.dll
+	System.Numerics.Vectors, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Numerics.Vectors.dll
+	System.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.ObjectModel.dll
+	System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Private.CoreLib.dll
+	System.Private.Uri, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Private.Uri.dll
+	System.Private.Xml, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Private.Xml.dll
+	System.Reflection.Emit, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Reflection.Emit.dll
+	System.Reflection.Emit.ILGeneration, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Reflection.Emit.ILGeneration.dll
+	System.Reflection.Emit.Lightweight, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Reflection.Emit.Lightweight.dll
+	System.Reflection.Metadata, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Reflection.Metadata.dll
+	System.Reflection.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Reflection.Primitives.dll
+	System.Resources.Extensions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.24\System.Resources.Extensions.dll
+	System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Runtime.dll
+	System.Runtime.InteropServices, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Runtime.InteropServices.dll
+	System.Runtime.InteropServices.RuntimeInformation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Runtime.InteropServices.RuntimeInformation.dll
+	System.Runtime.Serialization.Formatters, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Runtime.Serialization.Formatters.dll
+	System.Security.Cryptography, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Security.Cryptography.dll
+	System.Text.Encoding.Extensions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Text.Encoding.Extensions.dll
+	System.Text.RegularExpressions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Text.RegularExpressions.dll
+	System.Threading, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Threading.dll
+	System.Threading.Thread, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Threading.Thread.dll
+	System.Threading.ThreadPool, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Threading.ThreadPool.dll
+	System.Windows.Forms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.24\System.Windows.Forms.dll
+	System.Windows.Forms.Design, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.24\System.Windows.Forms.Design.dll
+	System.Windows.Forms.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.24\System.Windows.Forms.Primitives.dll
+	System.Xml.ReaderWriter, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Xml.ReaderWriter.dll
+	System.Xml.XmlSerializer, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Xml.XmlSerializer.dll
+07.03.26 11:46:14.324	SetupModules
+07.03.26 11:46:14.711	Customize TypesInfo
+07.03.26 11:46:16.581		preferredLanguageName: (User language)
+								userLanguageName: vi-VN
+
+07.03.26 11:46:16.582		preferredLanguageName: (User language)
+								userFormattingCultureName: vi-VN
+								selectedFormattingCultureName: vi-VN
+
+07.03.26 11:46:16.746	Logon With Parameters
+07.03.26 11:46:16.747		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: b40a4b43-c113-4d1c-8454-cf4d6fec5c9c
+								Category: Unspecified
+
+07.03.26 11:46:16.835	Generate default Model for Action containers
+07.03.26 11:46:21.109	'Password' property editor value changed
+07.03.26 11:46:21.112	--------------------------------------------------------------------------------
+							Execute action
+
+07.03.26 11:46:21.112		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Log In
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+
+07.03.26 11:46:21.112	--------------------------------------------------------------------------------
+							Execute action
+
+07.03.26 11:46:21.112		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: b40a4b43-c113-4d1c-8454-cf4d6fec5c9c
+								Category: Unspecified
+
+07.03.26 11:46:21.136	--------------------------------------------------------------------------------
+							Start logon process
+
+07.03.26 11:46:21.137	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+07.03.26 11:46:21.137		ConnectionString: 
+07.03.26 11:46:21.137		ConnectionString: 
+07.03.26 11:46:23.178	Resolve the 'Main.Module, Culture=neutral, PublicKeyToken=null' assembly
+07.03.26 11:46:23.212	Resolve the 'Xpand.ExpressApp.ImportWizard, Culture=neutral, PublicKeyToken=null' assembly
+07.03.26 11:46:23.214	Resolve the 'VietRau.Module, Culture=neutral, PublicKeyToken=null' assembly
+07.03.26 11:46:23.382	--------------------------------------------------------------------------------
+							Logon successful
+
+07.03.26 11:46:23.879	--------------------------------------------------------------------------------
+							Logon completed
+
+07.03.26 11:46:24.109		startUpActions: 1
+07.03.26 11:46:24.154	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+07.03.26 11:46:25.878	--------------------------------------------------------------------------------
+							FilterController.SetFilter, View: ThongKeSanLuong_ListView
+
+07.03.26 11:46:25.878		filterID: Tất cả
+07.03.26 11:46:32.276	Action 'b40a4b43-c113-4d1c-8454-cf4d6fec5c9c' done
+07.03.26 11:46:32.277	Window closing: AuthenticationStandardLogonParameters_Win_DetailView
+07.03.26 11:46:32.282	Action 'Logon' done
+07.03.26 11:46:32.282	Window closed: AuthenticationStandardLogonParameters_Win_DetailView
+07.03.26 11:46:32.304	Application startup done
+=========================
+07.03.26 11:46:32.304	Application running
+====================
+07.03.26 11:51:50.887	Window closing: ThongKeSanLuong_ListView
+07.03.26 11:51:50.892	Window closing: LightStyleMainRibbonForm
+07.03.26 11:51:50.912	Window closed: ThongKeSanLuong_ListView
+07.03.26 11:51:50.912	Window closed: LightStyleMainRibbonForm
+07.03.26 11:51:51.001	Save model changes
+===================
+07.03.26 11:51:52.132	Save model changes
+===================
+07.03.26 11:51:52.754	--------------------------------------------------------------------------------
+							Logoff completed
+
+07.03.26 11:51:52.794	Application stopping
+=====================
+07.03.26 11:52:29.357	================================================================================
+07.03.26 11:52:29.360	Trace Log for BingoERP_2026.Win is started
+07.03.26 11:52:29.360	================================================================================
+07.03.26 11:52:29.360	System Environment
+	OS Version: Microsoft Windows NT 10.0.26200.0
+	CLR Version: 8.0.24
+	eXpressApp Version: 24.1.3.0
+	eXpressApp File Version: 24.1.3.0
+
+Application config
+	MiddleTierBaseAddress=https://middle-tier.bingoexv.com/
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+	eXpressAppFrameworkTraceLevel=3
+
+07.03.26 11:52:29.399	Initialize application
+=======================
+07.03.26 11:52:29.438	The ValueManagerType is initialized by the default value: SimpleValueManager.
+07.03.26 11:52:29.448	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at DevExpress.Persistent.Base.ValueManager.<>c__4`1.<GetValueManager>b__4_1(String _key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   at DevExpress.ExpressApp.ReportsV2.Win.ReportsWindowsFormsModuleV2.Setup(XafApplication application)
+   at DevExpress.ExpressApp.XafApplication.ModuleList_ModuleAdded(Object sender, ModuleRegisteredEventArgs e)
+   at DevExpress.ExpressApp.ModuleList.SetupModule(ModuleBase module)
+   at DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   at System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   at DevExpress.ExpressApp.Utils.BindingListBase`1.Add(T item)
+   at DevExpress.ExpressApp.Win.ApplicationBuilder.WinModuleBuilder.<>c__DisplayClass4_0`1.<Add>b__0(XafApplication application)
+   at DevExpress.ExpressApp.Win.ApplicationBuilder.WinApplicationBuilder.Build()
+   at BingoERP_2026.Win.ApplicationBuilder.BuildApplication() in C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\Startup.cs:line 84
+   at BingoERP_2026.Win.Program.Main(String[] args) in C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\Program.cs:line 38
+
+07.03.26 11:52:29.742	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+07.03.26 11:52:29.742	--------------------------------------------------------------------------------
+							
+
+07.03.26 11:52:29.746	--------------------------------------------------------------------------------
+Loaded assemblies
+	Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.24\Accessibility.dll
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=
+	BingoERP_2026.Module, Version=1.0.9562.21177, Culture=neutral, PublicKeyToken=null, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\BingoERP_2026.Module.dll
+	BingoERP_2026.Win, Version=1.0.9562.21371, Culture=neutral, PublicKeyToken=null, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\BingoERP_2026.Win.dll
+	DevExpress.BonusSkins.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.BonusSkins.v24.1.dll
+	DevExpress.Data.Desktop.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.Data.Desktop.v24.1.dll
+	DevExpress.Data.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.Data.v24.1.dll
+	DevExpress.Drawing.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.Drawing.v24.1.dll
+	DevExpress.ExpressApp.AuditTrail.Xpo.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.AuditTrail.Xpo.v24.1.dll
+	DevExpress.ExpressApp.Chart.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Chart.v24.1.dll
+	DevExpress.ExpressApp.Chart.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Chart.Win.v24.1.dll
+	DevExpress.ExpressApp.CloneObject.Xpo.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.CloneObject.Xpo.v24.1.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.ConditionalAppearance.v24.1.dll
+	DevExpress.ExpressApp.Dashboards.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Dashboards.v24.1.dll
+	DevExpress.ExpressApp.Dashboards.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Dashboards.Win.v24.1.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.FileAttachment.Win.v24.1.dll
+	DevExpress.ExpressApp.Kpi.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Kpi.v24.1.dll
+	DevExpress.ExpressApp.Notifications.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Notifications.v24.1.dll
+	DevExpress.ExpressApp.Notifications.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Notifications.Win.v24.1.dll
+	DevExpress.ExpressApp.Objects.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Objects.v24.1.dll
+	DevExpress.ExpressApp.Office.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Office.v24.1.dll
+	DevExpress.ExpressApp.Office.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Office.Win.v24.1.dll
+	DevExpress.ExpressApp.PivotChart.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.PivotChart.v24.1.dll
+	DevExpress.ExpressApp.PivotChart.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.PivotChart.Win.v24.1.dll
+	DevExpress.ExpressApp.PivotGrid.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.PivotGrid.v24.1.dll
+	DevExpress.ExpressApp.PivotGrid.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.PivotGrid.Win.v24.1.dll
+	DevExpress.ExpressApp.ReportsV2.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.ReportsV2.v24.1.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.ReportsV2.Win.v24.1.dll
+	DevExpress.ExpressApp.Scheduler.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Scheduler.v24.1.dll
+	DevExpress.ExpressApp.Scheduler.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Scheduler.Win.v24.1.dll
+	DevExpress.ExpressApp.ScriptRecorder.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.ScriptRecorder.v24.1.dll
+	DevExpress.ExpressApp.Security.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Security.v24.1.dll
+	DevExpress.ExpressApp.Security.Xpo.Extensions.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Security.Xpo.Extensions.Win.v24.1.dll
+	DevExpress.ExpressApp.Security.Xpo.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Security.Xpo.v24.1.dll
+	DevExpress.ExpressApp.StateMachine.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.StateMachine.v24.1.dll
+	DevExpress.ExpressApp.TreeListEditors.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.TreeListEditors.v24.1.dll
+	DevExpress.ExpressApp.TreeListEditors.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.TreeListEditors.Win.v24.1.dll
+	DevExpress.ExpressApp.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.v24.1.dll
+	DevExpress.ExpressApp.Validation.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Validation.v24.1.dll
+	DevExpress.ExpressApp.Validation.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Validation.Win.v24.1.dll
+	DevExpress.ExpressApp.ViewVariantsModule.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.ViewVariantsModule.v24.1.dll
+	DevExpress.ExpressApp.Win.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Win.v24.1.dll
+	DevExpress.ExpressApp.Xpo.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.ExpressApp.Xpo.v24.1.dll
+	DevExpress.Persistent.Base.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.Persistent.Base.v24.1.dll
+	DevExpress.Persistent.BaseImpl.Xpo.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.Persistent.BaseImpl.Xpo.v24.1.dll
+	DevExpress.PivotGrid.v24.1.Core, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.PivotGrid.v24.1.Core.dll
+	DevExpress.Printing.v24.1.Core, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.Printing.v24.1.Core.dll
+	DevExpress.RichEdit.v24.1.Core, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.RichEdit.v24.1.Core.dll
+	DevExpress.Spreadsheet.v24.1.Core, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.Spreadsheet.v24.1.Core.dll
+	DevExpress.Utils.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.Utils.v24.1.dll
+	DevExpress.Xpo.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.Xpo.v24.1.dll
+	DevExpress.XtraBars.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.XtraBars.v24.1.dll
+	DevExpress.XtraEditors.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.XtraEditors.v24.1.dll
+	DevExpress.XtraReports.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.XtraReports.v24.1.dll
+	DevExpress.XtraReports.v24.1.Extensions, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.XtraReports.v24.1.Extensions.dll
+	DevExpress.XtraRichEdit.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.XtraRichEdit.v24.1.dll
+	DevExpress.XtraScheduler.v24.1.Core, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.XtraScheduler.v24.1.Core.dll
+	DevExpress.XtraSpreadsheet.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.XtraSpreadsheet.v24.1.dll
+	DevExpress.XtraTreeList.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\dongocquy\Documents\Projects\BingoERP_2026\BingoERP_2026.Win\bin\Release\net8.0-windows\publish\DevExpress.XtraTreeList.v24.1.dll
+	Microsoft.Extensions.Configuration, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.24\Microsoft.Extensions.Configuration.dll
+	Microsoft.Extensions.Configuration.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.24\Microsoft.Extensions.Configuration.Abstractions.dll
+	Microsoft.Extensions.DependencyInjection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.24\Microsoft.Extensions.DependencyInjection.dll
+	Microsoft.Extensions.DependencyInjection.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.24\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+	Microsoft.Extensions.Options, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.24\Microsoft.Extensions.Options.dll
+	Microsoft.Extensions.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.24\Microsoft.Extensions.Primitives.dll
+	Microsoft.Win32.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\Microsoft.Win32.Primitives.dll
+	Microsoft.Win32.Registry, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\Microsoft.Win32.Registry.dll
+	Microsoft.Win32.SystemEvents, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.24\Microsoft.Win32.SystemEvents.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.dll
+	System.Collections, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Collections.dll
+	System.Collections.Concurrent, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Collections.Concurrent.dll
+	System.Collections.Immutable, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Collections.Immutable.dll
+	System.Collections.NonGeneric, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Collections.NonGeneric.dll
+	System.Collections.Specialized, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Collections.Specialized.dll
+	System.ComponentModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.ComponentModel.dll
+	System.ComponentModel.EventBasedAsync, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.ComponentModel.EventBasedAsync.dll
+	System.ComponentModel.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.ComponentModel.Primitives.dll
+	System.ComponentModel.TypeConverter, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.ComponentModel.TypeConverter.dll
+	System.Configuration.ConfigurationManager, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.24\System.Configuration.ConfigurationManager.dll
+	System.Data.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Data.Common.dll
+	System.Diagnostics.DiagnosticSource, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Diagnostics.DiagnosticSource.dll
+	System.Diagnostics.FileVersionInfo, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Diagnostics.FileVersionInfo.dll
+	System.Diagnostics.Process, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Diagnostics.Process.dll
+	System.Diagnostics.StackTrace, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Diagnostics.StackTrace.dll
+	System.Diagnostics.TextWriterTraceListener, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Diagnostics.TextWriterTraceListener.dll
+	System.Diagnostics.TraceSource, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Diagnostics.TraceSource.dll
+	System.Diagnostics.Tracing, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Diagnostics.Tracing.dll
+	System.Drawing, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.24\System.Drawing.dll
+	System.Drawing.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.24\System.Drawing.Common.dll
+	System.Drawing.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Drawing.Primitives.dll
+	System.IO.Compression, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.IO.Compression.dll
+	System.IO.MemoryMappedFiles, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.IO.MemoryMappedFiles.dll
+	System.Linq, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Linq.dll
+	System.Linq.Expressions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Linq.Expressions.dll
+	System.Memory, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Memory.dll
+	System.Net.Http, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Net.Http.dll
+	System.Net.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Net.Primitives.dll
+	System.Net.Security, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Net.Security.dll
+	System.Net.WebClient, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Net.WebClient.dll
+	System.Net.WebSockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Net.WebSockets.dll
+	System.Net.WebSockets.Client, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Net.WebSockets.Client.dll
+	System.Numerics.Vectors, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Numerics.Vectors.dll
+	System.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.ObjectModel.dll
+	System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Private.CoreLib.dll
+	System.Private.Uri, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Private.Uri.dll
+	System.Private.Xml, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Private.Xml.dll
+	System.Reflection.Emit, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Reflection.Emit.dll
+	System.Reflection.Emit.ILGeneration, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Reflection.Emit.ILGeneration.dll
+	System.Reflection.Emit.Lightweight, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Reflection.Emit.Lightweight.dll
+	System.Reflection.Metadata, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Reflection.Metadata.dll
+	System.Reflection.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Reflection.Primitives.dll
+	System.Resources.Extensions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.24\System.Resources.Extensions.dll
+	System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Runtime.dll
+	System.Runtime.InteropServices, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Runtime.InteropServices.dll
+	System.Runtime.InteropServices.RuntimeInformation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Runtime.InteropServices.RuntimeInformation.dll
+	System.Runtime.Serialization.Formatters, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Runtime.Serialization.Formatters.dll
+	System.Security.Cryptography, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Security.Cryptography.dll
+	System.Text.Encoding.Extensions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Text.Encoding.Extensions.dll
+	System.Text.RegularExpressions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Text.RegularExpressions.dll
+	System.Threading, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Threading.dll
+	System.Threading.Thread, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Threading.Thread.dll
+	System.Threading.ThreadPool, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Threading.ThreadPool.dll
+	System.Windows.Forms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.24\System.Windows.Forms.dll
+	System.Windows.Forms.Design, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.24\System.Windows.Forms.Design.dll
+	System.Windows.Forms.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.24\System.Windows.Forms.Primitives.dll
+	System.Xml.ReaderWriter, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Xml.ReaderWriter.dll
+	System.Xml.XmlSerializer, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Xml.XmlSerializer.dll
+07.03.26 11:52:29.867	SetupModules
+07.03.26 11:52:30.241	Customize TypesInfo
+07.03.26 11:52:32.471		preferredLanguageName: (User language)
+								userLanguageName: vi-VN
+
+07.03.26 11:52:32.471		preferredLanguageName: (User language)
+								userFormattingCultureName: vi-VN
+								selectedFormattingCultureName: vi-VN
+
+07.03.26 11:52:32.627	Logon With Parameters
+07.03.26 11:52:32.628		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: e9a06b7c-6130-45ba-9977-c49cc749da8a
+								Category: Unspecified
+
+07.03.26 11:52:32.722	Generate default Model for Action containers
+07.03.26 11:52:36.789	'Password' property editor value changed
+07.03.26 11:52:36.791	--------------------------------------------------------------------------------
+							Execute action
+
+07.03.26 11:52:36.791		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Log In
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+
+07.03.26 11:52:36.792	--------------------------------------------------------------------------------
+							Execute action
+
+07.03.26 11:52:36.792		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: e9a06b7c-6130-45ba-9977-c49cc749da8a
+								Category: Unspecified
+
+07.03.26 11:52:36.815	--------------------------------------------------------------------------------
+							Start logon process
+
+07.03.26 11:52:36.816	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+07.03.26 11:52:36.816		ConnectionString: 
+07.03.26 11:52:36.816		ConnectionString: 
+07.03.26 11:52:38.917	Resolve the 'Main.Module, Culture=neutral, PublicKeyToken=null' assembly
+07.03.26 11:52:38.926	Resolve the 'Xpand.ExpressApp.ImportWizard, Culture=neutral, PublicKeyToken=null' assembly
+07.03.26 11:52:38.929	Resolve the 'VietRau.Module, Culture=neutral, PublicKeyToken=null' assembly
+07.03.26 11:52:39.114	--------------------------------------------------------------------------------
+							Logon successful
+
+07.03.26 11:52:39.635	--------------------------------------------------------------------------------
+							Logon completed
+
+07.03.26 11:52:39.856		startUpActions: 1
+07.03.26 11:52:39.885	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+07.03.26 11:52:41.312	--------------------------------------------------------------------------------
+							FilterController.SetFilter, View: ThongKeSanLuong_ListView
+
+07.03.26 11:52:41.312		filterID: Tất cả
+07.03.26 11:52:47.597	Action 'e9a06b7c-6130-45ba-9977-c49cc749da8a' done
+07.03.26 11:52:47.598	Window closing: AuthenticationStandardLogonParameters_Win_DetailView
+07.03.26 11:52:47.604	Action 'Logon' done
+07.03.26 11:52:47.604	Window closed: AuthenticationStandardLogonParameters_Win_DetailView
+07.03.26 11:52:47.653	Application startup done
+=========================
+07.03.26 11:52:47.653	Application running
+====================
