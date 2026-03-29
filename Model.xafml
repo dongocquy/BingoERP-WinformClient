@@ -1,4 +1,67 @@
-﻿<Application Logo="ExpressAppLogo">
-	<Options UIType="TabbedMDI" FormStyle="Ribbon" />
-	<NavigationItems NavigationStyle="Accordion" DefaultChildItemsDisplayStyle="List"/>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Logo="ExpressAppLogo">
+  <NavigationItems NavigationStyle="Accordion" DefaultChildItemsDisplayStyle="List" />
+  <Options UIType="TabbedMDI" FormStyle="Ribbon" />
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="24.1.3.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerModuleBase" Version="24.1.3.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerWindowsFormsModule" Version="24.1.3.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="24.1.3.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="24.1.3.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="BaoCaoThongKeHangThang_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <TabbedGroup Id="Tabs" Index="0" RelativeSize="100">
+            <LayoutGroup Id="Thông tin báo cáo thống kê" ShowCaption="True" Direction="Horizontal" Index="0" RelativeSize="100" IsNewNode="True">
+              <LayoutGroup Id="Thông tin báo cáo thống kê_col1" ShowCaption="False" Index="0" RelativeSize="49.96066089693155" IsNewNode="True">
+                <LayoutItem Id="MaDoiTuong" ViewItem="MaDoiTuong" Index="0" RelativeSize="4.423748544819557" IsNewNode="True" />
+                <LayoutItem Id="MaBangGia" ViewItem="MaBangGia" Index="1" RelativeSize="3.492433061699651" IsNewNode="True" />
+                <LayoutItem Id="NgayThucHien" ViewItem="NgayThucHien" Index="2" RelativeSize="3.492433061699651" IsNewNode="True" />
+                <LayoutItem Id="TongTrongLuong" ViewItem="TongTrongLuong" Index="3" RelativeSize="3.492433061699651" IsNewNode="True" />
+                <LayoutItem Id="TongTrongLuongGiaoHang" ViewItem="TongTrongLuongGiaoHang" Index="4" RelativeSize="3.492433061699651" IsNewNode="True" />
+                <LayoutItem Id="TongTrongLuongBangKe" ViewItem="TongTrongLuongBangKe" Index="5" RelativeSize="3.492433061699651" IsNewNode="True" />
+                <LayoutItem Id="DonGiaCheBienTrungBinh" ViewItem="DonGiaCheBienTrungBinh" Index="6" RelativeSize="3.492433061699651" IsNewNode="True" />
+                <LayoutItem Id="ThanhTien" ViewItem="ThanhTien" Index="7" RelativeSize="3.492433061699651" IsNewNode="True" />
+                <LayoutItem Id="ThanhTienNLD" ViewItem="ThanhTienNLD" Index="8" RelativeSize="71.12922002328288" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="Thông tin báo cáo thống kê_col2" ShowCaption="False" Index="1" RelativeSize="50.03933910306845" IsNewNode="True">
+                <LayoutItem Id="ChiPhiPhuCapNLD" ViewItem="ChiPhiPhuCapNLD" Index="0" RelativeSize="4.423748544819557" IsNewNode="True" />
+                <LayoutItem Id="ChiPhiTienComNLD" ViewItem="ChiPhiTienComNLD" Index="1" RelativeSize="3.492433061699651" IsNewNode="True" />
+                <LayoutItem Id="TongChiPhi" ViewItem="TongChiPhi" Index="2" RelativeSize="3.492433061699651" IsNewNode="True" />
+                <LayoutItem Id="ChiPhiKSPPercent" ViewItem="ChiPhiKSPPercent" Index="3" RelativeSize="3.492433061699651" IsNewNode="True" />
+                <LayoutItem Id="ChiPhiPhuCapPercent" ViewItem="ChiPhiPhuCapPercent" Index="4" RelativeSize="3.492433061699651" IsNewNode="True" />
+                <LayoutItem Id="ChiPhiTienComPercent" ViewItem="ChiPhiTienComPercent" Index="5" RelativeSize="3.492433061699651" IsNewNode="True" />
+                <LayoutItem Id="GhiChu" ViewItem="GhiChu" Index="6" RelativeSize="3.492433061699651" IsNewNode="True" />
+                <LayoutItem Id="HoanThanh" ViewItem="HoanThanh" Index="7" RelativeSize="74.62165308498254" IsNewNode="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="BaoCaoThongKeHangNgay" TextAlignMode="AlignWithChildren" Index="1" RelativeSize="100">
+              <LayoutItem Id="BaoCaoThongKeHangNgay" TextAlignMode="AutoSize" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="ThongKeSanLuong" TextAlignMode="AlignWithChildren" Index="2" RelativeSize="100">
+              <LayoutItem Id="ThongKeSanLuong" TextAlignMode="AutoSize" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="ThongKeTheoNLD" TextAlignMode="AlignWithChildren" Index="3" RelativeSize="100">
+              <LayoutItem Id="ThongKeTheoNLD" TextAlignMode="AutoSize" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="ThongKeHangThangTheoNLD" TextAlignMode="AlignWithChildren" Index="4" RelativeSize="100">
+              <LayoutItem Id="ThongKeHangThangTheoNLD" TextAlignMode="AutoSize" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="BangKeBanHangItems" TextAlignMode="AlignWithChildren" Index="5" RelativeSize="100">
+              <LayoutItem Id="BangKeBanHangItems" TextAlignMode="AutoSize" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="PhieuGiaoHangItems" TextAlignMode="AlignWithChildren" Index="6" RelativeSize="100">
+              <LayoutItem Id="PhieuGiaoHangItems" TextAlignMode="AutoSize" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="AuditTrail" TextAlignMode="AlignWithChildren" Index="7" RelativeSize="100">
+              <LayoutItem Id="AuditTrail" TextAlignMode="AutoSize" RelativeSize="100" />
+            </LayoutGroup>
+          </TabbedGroup>
+          <LayoutGroup Id="Thông tin báo cáo thống kê" Removed="True" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
 </Application>
